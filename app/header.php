@@ -4,15 +4,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tugas 2</title>
-    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <header class="header">
 
     <div class="header_top">
   <div class="logo">
-    <a href="home.php">
-      <img src="../../assets/images/Logo.png" />
+    <a href="index.php?page=home">
+      <img src="assets/images/Logo.png" />
     </a>
   </div>
   <div class="icon">
@@ -36,7 +36,7 @@
   <a href="">Peristiwa</a>
   <a href="">Politik</a>
   <a href="">Ekonomi</a>
-  <a href="category.php">Entertainment</a>
+  <a href="index.php?page=category"  id="header_bot_menu">>Entertainment</a>
   <a href="">Olahraga</a>
   <a href="">Kuliner</a>
   <a href="">Wisata</a>

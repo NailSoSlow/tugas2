@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 
-    <?php
-      include "../header.php";
-    ?>
-
     <div class="blank_header"></div>
     <section class="body_content">
       <div class="headline_container">
         <div class="headline">
           <div class="headline_placeholder">
-            <a href="detail.php">
+            <a href="index.php?page=detail">
               <img src="https://via.placeholder.com/640x384" alt="" />
               <div class="headline_title_box">
                 <div class="headline_subtitle">
-                  <a href="category.php"><h4>Entertainment</h4></a>
+                  <a href="index.php?page=category"><h4>Entertainment</h4></a>
                 </div>
-                <a href="detail.php"><h1>Ngaku Haus Kasih Sayang, Gisella Anastasia: Aku Kering</h1></a>
+                <a href="index.php?page=detail"><h1>Ngaku Haus Kasih Sayang, Gisella Anastasia: Aku Kering</h1></a>
               </div>
             </a>
           </div>
@@ -423,7 +419,3 @@
         </div>
       </div>
     </section>
-
-      <?php
-        include "../footer.php";
-      ?>

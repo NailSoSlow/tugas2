@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-    <?php
-      include "../header.php";
-    ?>
 
     <div class="blank_header"></div>
     <section class="body_content">
@@ -9,10 +6,10 @@
         <h3 class="category_section"><span>Entertainment</span></h3>
         <div class="category_box">
           <div class="category_placeholder">
-            <a href="detail.php"><img src="https://via.placeholder.com/640x384" alt="" /></a>
+            <a href="index.php?page=detail"><img src="https://via.placeholder.com/640x384" alt="" /></a>
           </div>
           <div class="category_title">
-            <a href="detail.php"><h2>Ngaku Haus Kasih Sayang, Gisella Anastasia: Aku Kering</h2></a>
+            <a href="index.php?page=detail"><h2>Ngaku Haus Kasih Sayang, Gisella Anastasia: Aku Kering</h2></a>
             <date>Hari, 30 Bulan 2023</date>
           </div>
         </div>
@@ -155,7 +152,3 @@
         </div>
       </div>
     </section>
-
-    <?php
-      include "../footer.php";
-    ?>

@@ -1,7 +1,7 @@
 <footer class="footer">
 
 <div class="footer_logo">
-    <a href="home.php"><img src="../../assets/images/Logo.png" /></a>
+    <a href="index.php?page=home"><img src="assets/images/Logo.png" /></a>
 </div>
 <div class="footer_contact">
     <p class="footer_address">Alamat</p>
@@ -27,7 +27,7 @@
         <a href="">Peristiwa</a>
         <a href="">Politik</a>
         <a href="">Ekonomi</a>
-        <a href="category.php">Entertainment</a>
+        <a href="index.php?page=category">Entertainment</a>
         <a href="">Olahraga</a>
         <a href="">Kuliner</a>
         <a href="">Wisata</a>
@@ -87,12 +87,12 @@
     <p>-</p>
     <a href="">Karir</a>
     <p>-</p>
-    <a href="page.php">Kontak</a>
+    <a href="index.php?page=page">Kontak</a>
     <p>-</p>
     <a href="">Pedoman Media Siber</a>
 </div>
 
 </footer>
-    <script src="../../assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
