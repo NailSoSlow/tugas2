@@ -27,3 +27,17 @@ function showHeadline(n) {
   slides[n].style.display = "block";
   dots[n].className += " active";
 }
+
+function openMainMenu() {
+  document.getElementsByClassName("side_menu")[0].style.width = "80%";
+}
+function closeMainMenu() {
+  document.getElementsByClassName("side_menu")[0].style.width = "0";
+}
+
+function openSearchBar() {
+  document.getElementsByClassName("search_bar")[0].style.height = "80px";
+}
+function closeSeatchBar() {
+  document.getElementsByClassName("search_bar")[0].style.height = "0";
+}

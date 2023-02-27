@@ -25,6 +25,88 @@
   color: white !important;
 }
 
+.p {
+  color: red;
+}
+
+.side_menu {
+  display: flex;
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: -2px;
+  background-color: rgb(189, 65, 65);
+  overflow-x: hidden;
+  padding-top: 10px;
+  justify-content: space-between;
+  transition: 0.6s ease;
+  border-left: 2px solid darkred;
+}
+
+.main_menu a {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30px;
+  color: white;
+}
+
+.closebtn {
+  margin-right: 20px;
+}
+
+.closebtn button {
+  background: transparent;
+  border: transparent;
+}
+
+.closebtn svg {
+  width: 30px;
+  fill: white;
+}
+
+.search_bar {
+  position: fixed;
+  width: 100%;;
+  top: -2px;
+  left: 0;
+  height: 0px;
+  overflow-y: hidden;
+  background: rgb(189, 65, 65);
+  transition: 0.6s ease;
+  border-bottom: 2px solid darkred;
+}
+
+.search_bar form {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search_bar input {
+  height: 40px;
+  width: 70%;
+  border-radius: 10px;
+  border: transparent;
+}
+
+.search_bar svg {
+  width: 25px;
+}
+
+.search_bar button {
+  border: transparent;
+  background: transparent;
+  fill: white;
+}
+
+.search_bar button svg {
+  width: 30px;
+  background: transparent;
+}
+
 /* HEADER */
 .header {
   position: fixed;
@@ -46,8 +128,10 @@
   height: 45px;
 }
 
-.icon a {
-  padding-right: 20px;
+.icon button {
+  background: transparent;
+  border: transparent;
+  padding-right: 15px;
 }
 
 .icon svg {

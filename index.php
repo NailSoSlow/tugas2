@@ -4,7 +4,7 @@ if (isset($_GET['page'])) {
     $current_page = $_GET['page'];
 }
 
-include "app/header.php";
+require "app/header.php";
 
 switch ($current_page) {
     case 'detail':
@@ -22,5 +22,5 @@ switch ($current_page) {
         break;
 }
 
-include "app/footer.php";
+require "app/footer.php";
 ?>
